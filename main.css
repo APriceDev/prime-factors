@@ -1,0 +1,63 @@
+/* https://codepen.io/simonbusborg/pen/cyxad */
+/* http://jsfiddle.net/8k72a/1/ */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+:root{
+  --color-dark:  #161616;
+  --color-ocean:  #416dea;
+  --color-grass: #3dd28d;
+  --color-snow: #FFFFFF;
+  --color-salmon: #F32C52;
+  --color-sun: #feee7d;
+  --color-alge: #7999a9;
+  --color-flower: #353866;
+  --color-smoke: #e4e4e4;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: whitesmoke;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: var(--color-ocean);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1;
+  min-height: 100vh;
+}
+
+header{
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+sup{
+  font-size: 0.8rem;
+}
+#get-primes{
+  background: var(--color-ocean);
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  border: 0 none;
+  /* border-radius: 4px; */
+  border-radius: 0.25rem;
+  margin: 1rem;
+  padding: 1rem 1rem;
+}
+
+#get-primes:hover{
+  transition: all 150ms linear;
+  opacity: 0.9;
+}
+#number {
+  border-radius: 0.25rem;
+}
+
+#result {
+  text-align: center;
+  font-weight: 400;
+}
